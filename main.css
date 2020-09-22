@@ -1,0 +1,54 @@
+.hidden {
+    display: none;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+body {
+    text-align: center;
+}
+
+canvas {
+    background-color: black;
+    opacity: .6;
+}
+
+#snake_heading {
+    margin-bottom: 5px;
+}
+
+#highScore {
+    margin-left: 20px;
+}
+
+#level{
+    margin-left: 20px;
+}
+
+html {
+    background: url("jungle.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.neon-title {
+    text-align: center;
+    font-size: 3.5em;
+    margin: 0px;
+    color:white;
+    font-family: "Press Start 2P";
+}
+
+.neon {
+    text-align: center;
+    font-size: 1em;
+    margin: 0px;
+    color:white;
+    /* color: #B6FF00; */
+    font-family: "Press Start 2P";
+}
